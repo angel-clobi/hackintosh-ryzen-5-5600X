@@ -1,0 +1,21 @@
+# Downloads cache (binarios fuente — se regeneran con scripts/01-download-all.ps1)
+downloads/
+
+# Claude Code local settings
+.claude/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Local secrets / personal SMBIOS overrides (si llegas a separarlos)
+config.local.plist
+smbios.local.txt
